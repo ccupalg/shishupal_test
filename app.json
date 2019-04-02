@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "sdkVersion": "32.0.0",
+    "name": "Shishupal",
+    "icon": "./src/Images/icon.png",
+    "version": "1.0.0",
+    "slug": "shishupal", 
+    "splash": {
+      "resizeMode": "cover",
+      "image": "./src/Images/splash.png"
+    },   
+    "ios": {
+      "bundleIdentifier": "com.ccupal.shishupal",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to Upload your photo to profile and your bussiness product photos.",
+        "NSPhotoLibraryUsageDescription": "This app uses the Photo Library to Upload your photo to profile and your bussiness product photos."
+      }
+    },
+    "android": {
+      "package": "com.ccupal.shishupal",
+      "versionCode": 1,
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "CAMERA",
+        "MANAGE_DOCUMENTS",
+        "READ_CONTACTS",
+        "READ_CALENDAR",
+        "WRITE_CALENDAR",
+        "READ_EXTERNAL_STORAGE",
+        "READ_PHONE_STATE",
+        "RECORD_AUDIO",
+        "USE_FINGERPRINT",
+        "VIBRATE",
+        "WAKE_LOCK",
+        "WRITE_EXTERNAL_STORAGE"      
+      ]
+    }
+  }
+}

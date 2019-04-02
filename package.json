@@ -1,0 +1,39 @@
+{
+  "name": "Shishupal",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-native-scripts": "1.14.0",
+    "jest-expo": "^32.0.0",
+    "react-test-renderer": "16.3.1"
+  },
+  "main": "./node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "eject": "expo eject",
+    "android": "expo android",
+    "ios": "expo ios",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "expo": "^32.0.0",
+    "expo-analytics": "^1.0.7",
+    "native-base": "^2.3.5",
+    "oauth-1.0a": "^2.2.5",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-native-aws3": "0.0.8",
+    "react-native-elements": "^0.19.1",
+    "react-native-google-maps-directions": "^2.0.0",
+    "react-native-image-slider": "^2.0.3",
+    "react-native-image-zoom-viewer": "^2.2.18",
+    "react-native-keyboard-aware-scroll-view": "^0.7.2",
+    "react-native-material-dropdown": "^0.11.1",
+    "react-native-modal-datetime-picker": "^6.0.0",
+    "react-native-render-html": "^3.10.0",
+    "react-navigation": "^2.12.1"
+  }
+}
